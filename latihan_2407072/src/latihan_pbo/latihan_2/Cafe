@@ -1,0 +1,14 @@
+Cafe 
+- nama
+- bahan1
+- bahan2
+- bahan3
+
+sebuah kondisi
+-kopi susu, takaran kopi 2 sendok, takaran susu 3 sendok    kalau mocaa =satu slot sxpresso
+2 slot susu,setengah lost foam
+
+(2,3,4 )
+
+buat satu parameter perbandingan if else 
+import java.util.scanner
