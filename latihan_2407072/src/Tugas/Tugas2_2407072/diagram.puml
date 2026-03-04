@@ -1,0 +1,39 @@
+@startuml
+
+class Persegi {
+  - sisi : double
+  # setSisi(s: double) : void
+  + hitungLuas() : double
+  + hitungKeliling() : double
+}
+
+class PersegiPanjang {
+  # panjang : double
+  # lebar : double
+  + hitungLuas() : double
+  ~ hitungKeliling() : double
+}
+
+class Segitiga {
+  - alas : double
+  - tinggi : double
+  # setData(a: double, t: double) : void
+  + hitungLuas() : double
+}
+
+class Lingkaran {
+  ~ jariJari : double
+  + hitungLuas() : double
+  # hitungKeliling() : double
+}
+
+class KalkulatorBangunDatar {
+  + main(args: String[]) : void
+}
+
+KalkulatorBangunDatar --> Persegi
+KalkulatorBangunDatar --> PersegiPanjang
+KalkulatorBangunDatar --> Segitiga
+KalkulatorBangunDatar --> Lingkaran
+
+@enduml

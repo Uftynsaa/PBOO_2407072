@@ -1,3 +1,5 @@
+package Tugas.Tugas2_2407072;
+
 import java.util.Scanner;
 
 class Persegi {

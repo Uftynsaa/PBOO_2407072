@@ -27,7 +27,7 @@ class PersegiPanjang {
         this.lebar = lebar;
     }
     
-    int hitungLuas(){
+     int hitungLuas(){
         return panjang * lebar;
     }   
     int hitungKeliling(){
